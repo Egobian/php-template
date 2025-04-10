@@ -1,0 +1,69 @@
+# PHP specific
+/vendor/
+composer.phar
+composer.lock
+.phpunit.result.cache
+*.php~
+
+# IDE and editor directories
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
+.env.backup
+.env.local
+.env.development
+.env.testing
+.env.production
+.env.staging
+.env.example
+
+# Application specific
+/node_modules/
+/public/hot/
+/public/storage/
+/storage/*.key
+/bootstrap/cache/
+/logs/
+/build/
+
+# Laravel specific (if using Laravel)
+/public/css/
+/public/js/
+/storage/framework/cache/*
+/storage/framework/sessions/*
+/storage/framework/testing/*
+/storage/framework/views/*
+/storage/logs/*
+!/storage/framework/cache/.gitkeep
+!/storage/framework/sessions/.gitkeep
+!/storage/framework/testing/.gitkeep
+!/storage/framework/views/.gitkeep
+!/storage/logs/.gitkeep
+
+# Wordpress specific (if using WordPress)
+wp-config.php
+wp-content/advanced-cache.php
+wp-content/backup-db/
+wp-content/backups/
+wp-content/blogs.dir/
+wp-content/cache/
+wp-content/upgrade/
+wp-content/uploads/
+wp-content/wp-cache-config.php
+wp-content/plugins/hello.php
+
+# Dependency directories
+/bower_components/
+
+# Miscellaneous
+.htaccess
+error_log
+/tmp/
