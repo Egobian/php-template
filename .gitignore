@@ -64,6 +64,5 @@ wp-content/plugins/hello.php
 /bower_components/
 
 # Miscellaneous
-.htaccess
 error_log
 /tmp/
